@@ -1,69 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
 
 body{
-  background-image: linear-gradient(135deg, red, blue);
-  height: 700px;
-  font-family: 'Quicksand', sans-serif;
+  background-color: plum;
 }
 
-.todo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+h1{
+  color: purple;
 }
-
-input{
-  background-color:darkgray;
-  border-radius: 18px;
-  padding: 10px;
-  margin-bottom: 20px;
-  width: 200px;
-
-}
-
-.inputbox{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: blueviolet;
-  border-radius: 20px;
-  height: 40px;
-  font-size: 12px;
-  padding: 10px 5px;
-  width: 100px;
-  margin: 0px 5px;
-}
-
-li  {
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-  margin: 10px 0px;
-  margin-left: 0 ;
-}
-
-#btn{
-  background-color:darkmagenta;
-  border-radius: 20px;
-  height: 30px;
-  font-size: 12px;
-  padding: 5px 2px;
-  width: 30px;
-}
-
-button:hover {
-  background-color: blueviolet;
-  color: white;
-}
-
-button:focus {
-  outline: none;
-}
-
